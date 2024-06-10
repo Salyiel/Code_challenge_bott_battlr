@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.bot-collection, .your-bot-army {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bot-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 8px;
+  cursor: pointer;
+  position: relative;
+}
+
+.bot-card h3 {
+  margin: 0;
+}
+
+.discharge-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
